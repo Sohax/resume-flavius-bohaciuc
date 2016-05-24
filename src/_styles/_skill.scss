@@ -1,0 +1,74 @@
+/* Skill */
+.skill .list {
+    height: 100px;
+    margin-top: 70px;
+}
+.skill .data {
+    padding: 0;
+}
+.skill ul {
+    list-style: none;
+}
+.bar p {
+    margin-top: 5px;
+    text-align: right;
+    color: #555;
+    font-weight: bold;
+}
+.html-css .progress {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 30px;
+    background-color: #eee;
+    border: 1px solid #555;
+}
+.html-css .bar {
+	position: absolute;
+    width: 92%;
+    height: 100%;
+    background-color: #F26A22;
+}
+.javascript .progress {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 30px;
+    background-color: #eee;
+    border: 1px solid #555;
+}
+.javascript .bar {
+    position: absolute;
+    width: 86%;
+    height: 100%;
+    background-color: #F26A22;
+}
+.office .progress {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 30px;
+    background-color: #eee;
+    border: 1px solid #555;
+}
+.office .bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F26A22;
+}
+.photoshop .progress {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 30px;
+    background-color: #eee;
+    border: 1px solid #555;
+}
+.photoshop .bar {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #F26A22;
+}
+/* End of Skill */

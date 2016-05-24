@@ -1,0 +1,40 @@
+.bubble-wrapper {
+	/* position relative is needed for the ::before and ::after
+	 * to take effect relative to this container using position absolute
+	 */
+	position: relative;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px 8px;
+	background: white;
+}
+
+.bubble-wrapper:before {
+	/* Important to use in ::before or :: after */
+	content: '';
+	/* Using position absolute and having position relative in the parent
+	 * bounds this to the parent container.
+	 */
+	position: absolute;
+
+	/* rest of rules */
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid black;
+	bottom: -12px;
+	left: 20px;
+}
+
+.bubble-wrapper:after {
+	/* Important to use in ::before or :: after */
+	content: '';
+	position: absolute;
+
+	/* rest of rules */
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+	bottom: -10px;
+	left: 22px;
+}
