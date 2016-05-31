@@ -10,6 +10,7 @@ footer {
 	margin-bottom: 0;
 	background-image: url(https://images7.alphacoders.com/372/372255.jpg);
   background-color: black;
+  border-radius: 5px 5px 0 0;
 }
 footer .row {
   display: flex;
@@ -30,7 +31,7 @@ footer .logo {
   margin-top: 2px;
 }
 footer .logo img {
-	width: 4em;
-	height: 4em;
+	width: 2em;
+	height: 2em;
 }
 /* Footer */
