@@ -4,6 +4,10 @@
   padding-bottom: 20px;
 }
 .skill ul {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   list-style: none;
   padding: 0;
   display: flex;
