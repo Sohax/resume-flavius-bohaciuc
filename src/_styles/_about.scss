@@ -52,7 +52,7 @@
   color: #555;
   text-align: left;
   margin-left: 10px;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .about p:first-letter {
   font-size: 200%;
@@ -75,8 +75,8 @@
 .about li {
   display: inline-block;
   margin: 0 auto;
-  height: 1em;
-  width: 2.5em;
+  height: 6rem;
+  width: 6rem;
 }
 .about ul {
   padding: 0;
@@ -89,7 +89,7 @@
   text-align: center;
 }
 .about span {
-  font-size: 1em;
+  //font-size: 0.5em;
 }
 /* About */
 //.about .right {
