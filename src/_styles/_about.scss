@@ -1,78 +1,62 @@
 /* About */
 .about .bubble-wrapper {
-    display: block;
-    float: right;
-    width: 10%;
-    padding: 30px auto;
-    text-align: center;
-    margin-right: 50px;
+  display: block;
+  float: right;
+  padding: 30px auto;
+  text-align: center;
+  margin-right: 50px;
 }
 .about p {
-    color: #555;
-    text-align: left;
-    margin-left: 10px;
-    font-size: 15px;
+  color: #555;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 0.5em;
 }
 .about p:first-letter {
-    font-size: 200%;
-    margin-left: 25px;
+  font-size: 200%;
+  margin-left: 25px;
 }
 .left {
 	width: 50%;
-    display: inline-block;
-    margin-left: 0;
-    margin-right: 0;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
 }
 .left img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 .about li {
-    display: inline-block;
-    margin: 0 auto;
-    height: 60px;
-    width: 80px;
+  display: inline-block;
+  margin: 0 auto;
+  height: 1em;
+  width: 2.5em;
 }
 .about ul {
-    padding: 0;
-    list-style: none;
-    text-align: center;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 
 }
 .about ul p {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
+}
+.about span {
+  font-size: 1em;
 }
 /* About */
-.right {
-    width: 50%;
-    display: inline-block;
-    float: right;
+.about .right {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  margin: 0 auto;
+  text-align: center;
 }
 .about .right img {
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 15px;
+  height: 10em;
+  width: 10em;
+  border-radius: 15px;
 }
-.embed-container {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    background-color: #fff;
-}
-.ratio-16-9 {
-    padding-bottom: 56.25%; /* 9/16*100 */
-}
-.ratio-4-3{
-padding-bottom:75%; /* 3/4*100 */
-}
-.ratio-1-1{
-padding-bottom:100%; /* … */
-}
-.embed-container img{
-position: absolute;
-top: 0;
-left: 0;
-width:100%;
-}
+
 /* End of About */
