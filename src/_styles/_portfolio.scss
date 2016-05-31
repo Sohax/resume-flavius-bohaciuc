@@ -1,22 +1,23 @@
 /* Portfolio */
 .loading {
 	text-align: center;
-    padding-top: 15%;
+  padding-top: 15%;
+  padding-bottom: 20%;
 }
 .loading img {
 	height: 100px;
-    width: 100px;
+  width: 100px;
 }
 .square-wrapper {
-    border: 1px solid red;
-    min-width: 100px;
-    min-height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-} 
+  border: 1px solid red;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
 .square {
-    border: 1px dotted black;
-    min-width: 33%;
-    min-height: 50px;
+  border: 1px dotted black;
+  min-width: 33%;
+  min-height: 50px;
 }
 /* End of Portfolio */

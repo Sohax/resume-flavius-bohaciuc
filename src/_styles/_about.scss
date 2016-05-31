@@ -1,78 +1,108 @@
 /* About */
-.about .bubble-wrapper {
-    display: block;
-    float: right;
-    width: 10%;
-    padding: 30px auto;
-    text-align: center;
-    margin-right: 50px;
-}
-.about p {
-    color: #555;
-    text-align: left;
-    margin-left: 10px;
-    font-size: 15px;
-}
-.about p:first-letter {
-    font-size: 200%;
-    margin-left: 25px;
-}
-.left {
-	width: 50%;
-    display: inline-block;
-    margin-left: 0;
-    margin-right: 0;
-}
-.left img {
-    height: 40px;
-    width: 40px;
-}
-.about li {
-    display: inline-block;
-    margin: 0 auto;
-    height: 60px;
-    width: 80px;
-}
-.about ul {
-    padding: 0;
-    list-style: none;
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  .left,
+  .right {
+    flex-grow: 1;
+    width: 50%;
+    // When the width is less than 10rem the flex-wrap will make
+    //  it brake on new line
+    min-width: 10rem;
     text-align: center;
 
+    // We attach pos relative to right so pos absolute of .bubble-wrapper does the trick
+    position: relative;
+  }
+}
+.right {
+  //border: 1px solid red;
+  padding-top: 2rem; // 48px
+
+}
+.about .bubble-wrapper {
+  display: block;
+  padding: 30px auto;
+  text-align: center;
+  margin-right: 20px;
+  max-width: 60%;
+  position: absolute;
+  //top: 0;
+  top: 0.5rem;
+  right: 0.7rem; // = 3 x 16px = 48px Got it?yup
+}
+.bubble {
+  width: 100%;
+  text-align: right;
+  padding-right: 1rem;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about p {
+  color: #555;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 0.5em;
+}
+.about p:first-letter {
+  font-size: 200%;
+  margin-left: 25px;
+}
+//.left {
+//	width: 50%;
+//  display: flex;
+//  flex-wrap: wrap;
+//  margin-left: 0;
+//  margin-right: 0;
+//}
+.left {
+  padding-top: 2rem;
+}
+.left img {
+  height: 40px;
+  width: 40px;
+}
+.about li {
+  display: inline-block;
+  margin: 0 auto;
+  height: 1em;
+  width: 2.5em;
+}
+.about ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  width: 100%;
 }
 .about ul p {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
+}
+.about span {
+  font-size: 1em;
 }
 /* About */
-.right {
-    width: 50%;
-    display: inline-block;
-    float: right;
-}
+//.about .right {
+//  width: 50%;
+//  display: block;
+//  float: right;
+//  margin: 0;
+//  text-align: center;
+//}
 .about .right img {
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 15px;
+  border-radius: 15px;
+  width: 80%;
 }
-.embed-container {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    background-color: #fff;
+.about h3 {
+  width: 100%;
 }
-.ratio-16-9 {
-    padding-bottom: 56.25%; /* 9/16*100 */
+.about h4 {
+  width: 100%;
 }
-.ratio-4-3{
-padding-bottom:75%; /* 3/4*100 */
-}
-.ratio-1-1{
-padding-bottom:100%; /* … */
-}
-.embed-container img{
-position: absolute;
-top: 0;
-left: 0;
-width:100%;
+.about h5 {
+  text-align: center;
+  width: 100%;
 }
 /* End of About */

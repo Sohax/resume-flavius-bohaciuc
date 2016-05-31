@@ -1,43 +1,50 @@
 /* Contact */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact h3 {
+  width: 100%;
+}
+.contact h6 {
+  margin: 0 auto;
+  width: 100%;
+}
 .contact .left {
-    width: 50%;
-    display: inline-block;
-    margin-top: 50px;
-    padding-top: 5%;
+  width: 50%;
+  margin: 0;
+  padding-top: 5%;
 }
 .contact .right {
-    width: 50%;
-    float: right;
-    margin-top: 50px;
-    padding-top: 5%;
+  width: 50%;
+  margin: 0;
+  padding-top: 5%;
 }
 .lines {
 	padding: 0;
-    margin-left: 50px;
+  margin-left: 50px;
 }
 .lines li {
-	display: block;
-    margin: 20px auto;
+  display: flex;
+  margin: 20px auto;
 }
 .lines p {
 	text-decoration: none;
-    display: inline-block;
-    padding-left: 20px;
-    margin-top: 12px;
-    font-size: 15px;
-    position: absolute;
-}
-.contact .row {
-	padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.5em;
+  margin-left: 5px;
 }
 .contact a {
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
 }
-
 .contact a:hover {
-    font-weight: bold;
-    color: #eee;
+  font-weight: bold;
+  color: #eee;
+}
+.contact .row {
+  width: 100%;
 }
 /* End of Contact */

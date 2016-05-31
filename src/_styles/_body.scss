@@ -10,38 +10,37 @@ body, header, section, footer {
 .container {
 	display: block;
 	width: 80%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .section {
 	padding-top: 50px;
-	min-height: 600px;
+	//min-height: 600px;
 	background-color: #fff;
 	margin-bottom: 50px;
 	box-shadow: 0 0 10px rgba(0,0,0, .20);
 }
 .clear {
-    clear: both;
+  clear: both;
 }
 
 
 /* Titles */
 h1 {
-	padding-top: 10%;
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 80px;
+  padding-top: 5%;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
 }
 /*h1:first-letter {
     color: #f26a22;
 }*/
 h2 {
-	padding-top: 20px;
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 40px;
-    height: 20px;
+  padding-top: 5%;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
 }
 /*h2:first-letter {
     color: #f26a22;
@@ -49,25 +48,22 @@ h2 {
 h3 {
 	margin-left: 20px;
 	color: #22aaf2;
-    display: inline-block;
+  display: inline-block;
 }
 h4 {
 	color: #555;
-    display: inline-block;
-    float: left;
-    margin-left: 40px;
-    font-size: 20px;
+  display: inline-block;
+  float: left;
+  margin: 0 30px;
 }
 h5 {
 	color: #555;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 h6 {
 	color: #555;
-    font-size: 20px;
-    text-align: center;
-    margin: 20px auto;
+  text-align: center;
+  margin: 20px auto;
 }
 /* End of Titles */
