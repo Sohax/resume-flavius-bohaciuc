@@ -13,11 +13,12 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .skill li {
-  width: 33%;
-  margin: 0;
+  width: 45%;
+  margin: 0.5rem 0;
 }
 
 .bar p {
@@ -31,11 +32,16 @@
 .progress {
   /*margin: 0 auto;*/
   position: relative;
-  width: 70%;
-  height: 30px;
+  //width: 70%;
+  height: 2rem;
   background-color: #eee;
   border: 1px solid #555;
   margin: 0 auto;
+}
+
+.progress + h6 {
+  margin-top: 0.5rem;
+  padding-top: 0.2rem;
 }
 
 .bar {

@@ -1,57 +1,73 @@
 /* Navbar */
-header {
-  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox; /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Chrome */
-  min-height: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  top: 0;
-  left: 0;
-  right: 0;
+.menu-button {
   position: fixed;
-  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 1rem;
+  width: 6rem;
+  text-align: center;
+
+  & .fa-bars {
+    margin-right: 0.4rem;
+  }
+}
+
+#menu-button {
+  display: none;
+
+  &:checked + header {
+    top: 0;
+  }
+}
+
+header {
+  min-height: 1rem;
+  flex-wrap: wrap;
+  top: -100%;
+  //left: 0;
+  //right: 0;
+  position: fixed;
+  //width: 100%;
+  width: calc(100% - 7rem);
   box-shadow: 0 0 10px rgba(0, 0, 0, .20);
   z-index: 1;
   text-align: center;
-  display: none;
+  transition: 0.5s;
+  //display: none;
 }
 
 nav {
   width: 80%;
   margin: 0 auto;
   display: block;
-}
 
-nav ul {
-  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox; /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Chrome */
-  list-style-type: none;
-  display: flex;
-  margin: 5px auto;
-  padding: 0;
-  width: 100%;
-}
+  & ul {
+    list-style-type: none;
+    flex-direction: column;
+    margin: 5px auto;
+    padding: 0;
+    width: 100%;
 
-nav a {
-  text-decoration: none;
-  color: #555;
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 10px;
-}
+    & li {
+      flex-grow: 1;
 
-nav a:hover {
-  color: #F26A22;
-}
+    }
+  }
 
-nav ul li {
-  flex-grow: 1;
+  & a {
+    text-decoration: none;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem 0;
 
+    &:hover {
+      color: #F26A22;
+    }
+  }
 }
 
 /* End of Navbar */

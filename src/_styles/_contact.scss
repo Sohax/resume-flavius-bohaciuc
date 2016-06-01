@@ -27,7 +27,7 @@
 
 .lines {
   padding: 0;
-  margin-left: 2rem;
+  //margin-left: 2rem;
 }
 
 .lines li {
@@ -37,6 +37,7 @@
   display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   margin: 20px auto;
+  align-items: center;
 }
 
 .lines p {
