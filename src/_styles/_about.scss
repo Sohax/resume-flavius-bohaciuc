@@ -19,11 +19,13 @@
     position: relative;
   }
 }
+
 .right {
   //border: 1px solid red;
-  padding-top: 2rem; // 48px
+  padding-top: 3rem; // 48px
 
 }
+
 .about .bubble-wrapper {
   display: block;
   padding: 30px auto;
@@ -35,11 +37,13 @@
   top: 0.5rem;
   right: 0.7rem; // = 3 x 16px = 48px Got it?yup
 }
+
 .bubble {
   width: 100%;
-  text-align: right;
+  text-align: center;
   padding-right: 1rem;
 }
+
 .about {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -48,16 +52,19 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .about p {
   color: #555;
   text-align: left;
   margin-left: 10px;
   font-size: 1em;
 }
+
 .about p:first-letter {
   font-size: 200%;
   margin-left: 25px;
 }
+
 //.left {
 //	width: 50%;
 //  display: flex;
@@ -68,29 +75,34 @@
 .left {
   padding-top: 2rem;
 }
-.left img {
-  height: 40px;
-  width: 40px;
-}
+
+//.left img {
+//  height: 40px;
+//  width: 40px;
+//}
 .about li {
   display: inline-block;
   margin: 0 auto;
   height: 6rem;
   width: 6rem;
 }
+
 .about ul {
   padding: 0;
   list-style: none;
   text-align: center;
   width: 100%;
 }
+
 .about ul p {
   margin: 0;
   text-align: center;
 }
+
 .about span {
   //font-size: 0.5em;
 }
+
 /* About */
 //.about .right {
 //  width: 50%;
@@ -103,14 +115,18 @@
   border-radius: 15px;
   width: 80%;
 }
+
 .about h3 {
   width: 100%;
 }
+
 .about h4 {
   width: 100%;
 }
+
 .about h5 {
   text-align: center;
   width: 100%;
 }
+
 /* End of About */

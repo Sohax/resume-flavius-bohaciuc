@@ -1,15 +1,5 @@
-/* Older browsers */
-html {
-  font-size: 16px;
-}
-
-/* Modern browsers only need this one */
-
-@media screen and (min-width: 25em) {
-  html {
-    font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
-  }
-}
+@import 'utility';
+@import 'fluid';
 @import 'old';
 @import 'body';
 @import 'bubble';

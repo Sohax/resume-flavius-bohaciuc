@@ -1,13 +1,15 @@
 /* Portfolio */
 .loading {
-	text-align: center;
+  text-align: center;
   padding-top: 15%;
   padding-bottom: 20%;
 }
+
 .loading img {
-	height: 100px;
+  height: 100px;
   width: 100px;
 }
+
 .square-wrapper {
   border: 1px solid red;
   min-width: 100px;
@@ -19,9 +21,11 @@
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Chrome */
 }
+
 .square {
   border: 1px dotted black;
   min-width: 33%;
   min-height: 50px;
 }
+
 /* End of Portfolio */

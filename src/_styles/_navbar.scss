@@ -4,23 +4,25 @@ header {
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Chrome */
-	min-height: 1rem;
-	display: flex;
+  min-height: 1rem;
+  display: flex;
   flex-wrap: wrap;
-	top: 0;
-	left: 0;
-	right: 0;
-	position: fixed;
-	width: 100%;
-	box-shadow: 0 0 10px rgba(0,0,0, .20);
-	z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .20);
+  z-index: 1;
   text-align: center;
 }
+
 nav {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
   display: block;
 }
+
 nav ul {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -32,6 +34,7 @@ nav ul {
   padding: 0;
   width: 100%;
 }
+
 nav a {
   text-decoration: none;
   color: #555;
@@ -40,11 +43,14 @@ nav a {
   font-weight: bold;
   padding: 10px;
 }
+
 nav a:hover {
   color: #F26A22;
 }
+
 nav ul li {
   flex-grow: 1;
 
 }
+
 /* End of Navbar */

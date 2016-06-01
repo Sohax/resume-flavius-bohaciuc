@@ -3,6 +3,7 @@
   display: block;
   padding-bottom: 20px;
 }
+
 .skill ul {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -13,10 +14,12 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .skill li {
   width: 33%;
   margin: 0;
 }
+
 .bar p {
   margin-top: 5px;
   text-align: right;
@@ -24,6 +27,7 @@
   font-weight: bold;
   font-size: large;
 }
+
 .progress {
   /*margin: 0 auto;*/
   position: relative;
@@ -33,41 +37,53 @@
   border: 1px solid #555;
   margin: 0 auto;
 }
+
 .bar {
   position: absolute;
   background-color: #f26A22;
   height: 100%;
 }
+
 .html-css .bar {
   width: 92%;
 }
+
 .javascript .bar {
   width: 86%;
 }
+
 .office .bar {
   width: 100%;
 }
+
 .photoshop .bar {
   width: 80%;
 }
+
 .jade .bar {
   width: 98%;
 }
+
 .sftp .bar {
   width: 83%;
 }
+
 .gulp .bar {
   width: 95%;
 }
+
 .sass .bar {
   width: 95%;
 }
+
 .git .bar {
   width: 88%;
 }
+
 .mobile .bar {
   width: 100%;
 }
+
 .cli .bar {
   width: 80%;
 }
