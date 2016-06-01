@@ -55,14 +55,14 @@
 
 .about p {
   color: #555;
-  text-align: left;
-  margin-left: 10px;
-  font-size: 1em;
+  text-align: justify;
+  //margin-left: 10px;
+  font-size: 1rem;
 }
 
 .about p:first-letter {
-  font-size: 200%;
-  margin-left: 25px;
+  font-size: 150%;
+  margin-left: 1rem;
 }
 
 //.left {
@@ -73,7 +73,7 @@
 //  margin-right: 0;
 //}
 .left {
-  padding-top: 2rem;
+  //padding-top: 2rem;
 }
 
 //.left img {
