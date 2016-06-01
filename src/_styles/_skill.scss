@@ -21,9 +21,11 @@
   margin: 0.5rem 0;
 }
 
-.bar p {
+.progress p {
+  position: absolute;
+  width: 100%;
   margin-top: 5px;
-  text-align: right;
+  text-align: center;
   color: #555;
   font-weight: bold;
   font-size: large;
@@ -35,8 +37,9 @@
   //width: 70%;
   height: 2rem;
   background-color: #eee;
-  border: 1px solid #555;
+  border: 0.1rem solid #555;
   margin: 0 auto;
+  border-radius: 0.5rem;
 }
 
 .progress + h6 {
@@ -48,6 +51,7 @@
   position: absolute;
   background-color: #f26A22;
   height: 100%;
+  border-radius: 0.5rem;
 }
 
 .html-css .bar {
@@ -59,7 +63,7 @@
 }
 
 .office .bar {
-  width: 100%;
+  width: 50%;
 }
 
 .photoshop .bar {
