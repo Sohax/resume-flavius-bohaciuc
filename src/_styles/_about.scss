@@ -45,11 +45,6 @@
 }
 
 .about {
-  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox; /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Chrome */
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -58,6 +53,7 @@
   text-align: justify;
   //margin-left: 10px;
   font-size: 1rem;
+  line-height: 1.2;
 }
 
 .about p:first-letter {
