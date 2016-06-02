@@ -5,7 +5,7 @@
   right: 0;
   background-color: #fff;
   padding: 1rem;
-  width: 6rem;
+  width: 3.5rem;
   text-align: center;
 
   & .fa-bars {
@@ -13,11 +13,21 @@
   }
 }
 
+.menu-close {
+  display: none;
+}
+
 #menu-button {
   display: none;
 
   &:checked + header {
     top: 0;
+    & .menu-open {
+      display: none;
+    }
+    & .menu-close {
+      display: inline-block;
+    }
   }
 }
 
