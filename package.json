@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "gulp --production",
+    "serve": "gulp serve",
+    "clean-deps": "rimraf node_modules"
+  },
   "name": "sample",
   "version": "0.0.1",
   "dependencies": {
@@ -42,9 +47,6 @@
     "js-yaml": "~3.5.2",
     "watchify": "~3.7.0 ",
     "browserify" : "~13.0.0"
-  },
-  "scripts": {
-    "clean-deps": "rimraf node_modules"
   },
   "engines": {
     "node": ">=0.12.0"
