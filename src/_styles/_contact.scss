@@ -3,48 +3,68 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .contact h3 {
   width: 100%;
 }
+
 .contact h6 {
   margin: 0 auto;
   width: 100%;
 }
+
 .contact .left {
   width: 50%;
   margin: 0;
   padding-top: 5%;
 }
+
 .contact .right {
   width: 50%;
   margin: 0;
   padding-top: 5%;
 }
+
 .lines {
-	padding: 0;
-  margin-left: 50px;
+  padding: 0;
+  //margin-left: 2rem;
 }
+
 .lines li {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   margin: 20px auto;
+  align-items: center;
 }
+
 .lines p {
-	text-decoration: none;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.5em;
+  font-size: 1em;
   margin-left: 5px;
 }
+
 .contact a {
   text-decoration: none;
   color: #555;
   font-weight: bold;
 }
+
 .contact a:hover {
   font-weight: bold;
   color: #eee;
 }
+
 .contact .row {
   width: 100%;
 }
+
 /* End of Contact */

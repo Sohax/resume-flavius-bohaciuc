@@ -2,11 +2,63 @@
   "skills": [
     {
       "name": "HTML5",
-      "percentage": "90%"
+      "class": "html",
+      "percentage": "95%"
     },
     {
       "name": "CSS3",
-      "percentage": "70%"
+      "class": "css",
+      "percentage": "95%"
+    },
+    {
+      "name": "JavaScript",
+      "class": "javascript",
+      "percentage": "85%"
+    },
+    {
+      "name": "Microsoft Office",
+      "class": "office",
+      "percentage": "100%"
+    },
+    {
+      "name": "Photoshop",
+      "class": "photoshop",
+      "percentage": "80%"
+    },
+    {
+      "name": "Jade",
+      "class": "jade",
+      "percentage": "95%"
+    },
+    {
+      "name": "SFTP",
+      "class": "sftp",
+      "percentage": "85%"
+    },
+    {
+      "name": "Gulp",
+      "class": "gulp",
+      "percentage": "85%"
+    },
+    {
+      "name": "Sass",
+      "class": "sass",
+      "percentage": "90%"
+    },
+    {
+      "name": "Git",
+      "class": "git",
+      "percentage": "90%"
+    },
+    {
+      "name": "Mobile First Design",
+      "class": "mobile",
+      "percentage": "95%"
+    },
+    {
+      "name": "Command Line Interface",
+      "class": "cli",
+      "percentage": "80%"
     }
   ]
 }

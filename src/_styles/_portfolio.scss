@@ -1,23 +1,31 @@
 /* Portfolio */
 .loading {
-	text-align: center;
+  text-align: center;
   padding-top: 15%;
   padding-bottom: 20%;
 }
+
 .loading img {
-	height: 100px;
+  height: 100px;
   width: 100px;
 }
+
 .square-wrapper {
   border: 1px solid red;
   min-width: 100px;
   min-height: 100px;
   display: flex;
   flex-wrap: wrap;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
 }
+
 .square {
   border: 1px dotted black;
   min-width: 33%;
   min-height: 50px;
 }
+
 /* End of Portfolio */

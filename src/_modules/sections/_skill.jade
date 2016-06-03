@@ -4,87 +4,95 @@ a(name='skill')
   h3 Skill
   .list
     ul
-      li.html-css
-        h6 HTML5/CSS3
-        .progress
-          .bar
+       for skill in site.data.resume.skills
+         li(class="#{skill.class}")
+          .progress
+            .bar
             p
-              | 92
-              sup %
+              | #{skill.percentage}
+          h6 #{skill.name}
             p
-      li.javascript
-        h6 JavaScript
-        .progress
-          .bar
-            p
-              | 86
-              sup %
-            p
-      li.office
-        h6 Microsoft Office
-        .progress
-          .bar
-            p
-              | 100
-              sup %
-            p
-      li.photoshop
-        h6 Photoshop
-        .progress
-          .bar
-            p
-              | 80
-              sup %
-            p
-      li.jade
-        h6 Jade
-        .progress
-          .bar
-            p
-              | 98
-              sup %
-            p
-      li.sftp
-        h6 SFTP
-        .progress
-          .bar
-            p
-              | 83
-              sup %
-      li.gulp
-        h6 Gulp
-        .progress
-          .bar
-            p
-              | 95
-              sup %
-      li.sass
-        h6 Sass
-        .progress
-          .bar
-            p
-              | 95
-              sup %
-      li.git
-        h6 Git
-        .progress
-          .bar
-            p
-              | 88
-              sup %
-      li.mobile
-        h6 Mobile First Design
-        .progress
-          .bar
-            p
-              | 100
-              sup %
-      li.cli
-        h6 Command Line Interface
-        .progress
-          .bar
-            p
-              | 80
-              sup %
+      //li.html-css
+      //  .progress
+      //    .bar
+      //    p
+      //      | 92
+      //      sup %
+      //  h6 HTML5/CSS3
+      //      p
+      //li.javascript
+      //  .progress
+      //    .bar
+      //    p
+      //      | 86
+      //      sup %
+      //  h6 JavaScript
+      //      p
+      //li.office
+      //  .progress
+      //    .bar
+      //    p
+      //      | 100
+      //      sup %
+      //  h6 Microsoft Office
+      //      p
+      //li.photoshop
+      //  .progress
+      //    .bar
+      //    p
+      //      | 80
+      //      sup %
+      //  h6 Photoshop
+      //      p
+      //li.jade
+      //  .progress
+      //    .bar
+      //    p
+      //      | 98
+      //      sup %
+      //  h6 Jade
+      //      p
+      //li.sftp
+      //  .progress
+      //    .bar
+      //    p
+      //      | 83
+      //      sup %
+      //  h6 SFTP
+      //li.gulp
+      //  .progress
+      //    .bar
+      //    p
+      //      | 95
+      //      sup %
+      //  h6 Gulp
+      //li.sass
+      //  .progress
+      //    .bar
+      //    p
+      //      | 95
+      //      sup %
+      //  h6 Sass
+      //li.git
+      //  .progress
+      //    .bar
+      //    p
+      //      | 88
+      //      sup %
+      //  h6 Git
+      //li.mobile
+      //  .progress
+      //    .bar
+      //    p
+      //      | 100
+      //      sup %
+      //  h6 Mobile First Design
+      //li.cli
+      //  .progress
+      //    .bar
+      //    p
+      //      | 80
+      //      sup %
+      //  h6 Command Line Interface
 
 // End of Skill

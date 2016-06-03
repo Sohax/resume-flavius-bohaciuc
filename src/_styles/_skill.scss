@@ -3,67 +3,99 @@
   display: block;
   padding-bottom: 20px;
 }
+
 .skill ul {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
+
 .skill li {
-  width: 33%;
-  margin: 0;
+  width: 45%;
+  margin: 0.5rem 0;
 }
-.bar p {
+
+.progress p {
+  position: absolute;
+  width: 100%;
   margin-top: 5px;
-  text-align: right;
+  text-align: center;
   color: #555;
   font-weight: bold;
   font-size: large;
 }
+
 .progress {
   /*margin: 0 auto;*/
   position: relative;
-  width: 70%;
-  height: 30px;
+  //width: 70%;
+  height: 2rem;
   background-color: #eee;
-  border: 1px solid #555;
+  border: 0.1rem solid #555;
   margin: 0 auto;
+  border-radius: 0.5rem;
 }
+
+.progress + h6 {
+  margin-top: 0.5rem;
+  padding-top: 0.2rem;
+}
+
 .bar {
   position: absolute;
   background-color: #f26A22;
   height: 100%;
+  border-radius: 0.5rem;
 }
-.html-css .bar {
-  width: 92%;
+.html .bar {
+  width: 95%;
 }
+.css .bar {
+  width: 95%;
+}
+
 .javascript .bar {
-  width: 86%;
+  width: 85%;
 }
+
 .office .bar {
   width: 100%;
 }
+
 .photoshop .bar {
   width: 80%;
 }
+
 .jade .bar {
-  width: 98%;
+  width: 95%;
 }
+
 .sftp .bar {
-  width: 83%;
+  width: 85%;
 }
+
 .gulp .bar {
-  width: 95%;
+  width: 85%;
 }
+
 .sass .bar {
+  width: 90%;
+}
+
+.git .bar {
+  width: 90%;
+}
+
+.mobile .bar {
   width: 95%;
 }
-.git .bar {
-  width: 88%;
-}
-.mobile .bar {
-  width: 100%;
-}
+
 .cli .bar {
   width: 80%;
 }

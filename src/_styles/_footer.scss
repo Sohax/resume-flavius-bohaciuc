@@ -1,29 +1,40 @@
 footer {
-	height: 10%;
-  bottom: 0;
-	display: flex;
+  //height: 10%;
+  //bottom: 0;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
   flex-wrap: wrap;
-	width: 100%;
-	box-shadow: 0 0 10px rgba(0,0,0, .20);
-	position: relative;
-	font-size: 0.5em;
-	margin-bottom: 0;
-	background-image: url(https://images7.alphacoders.com/372/372255.jpg);
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .20);
+  position: relative;
+  font-size: 1em;
+  margin-bottom: -1rem;
+  background-image: url(https://images7.alphacoders.com/372/372255.jpg);
   background-color: black;
   border-radius: 5px 5px 0 0;
 }
+
 footer .row {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   width: 100%;
 }
+
 //.copyright {
 //  width: 50%;
 //  margin-top: auto;
 //}
 .copyright p {
-	color: #fff;
+  color: #fff;
   margin: 0;
 }
+
 //footer .logo {
 //  width: 50%;
 //  text-align: right;
@@ -31,13 +42,19 @@ footer .row {
 //  margin-top: 2px;
 //}
 footer .logo img {
-	width: 2em;
-	height: 2em;
+  width: 2em;
+  height: 2em;
 }
+
 footer > .row {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
   align-items: center;
 }
+
 /* Footer */
