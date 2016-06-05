@@ -4,9 +4,9 @@
   top: 0;
   right: 0;
   background-color: #fff;
-  padding: 1rem;
-  width: 3.5rem;
-  text-align: center;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  width: 100%;
+  text-align: right;
 
   & .fa-bars {
     margin-right: 0.4rem;
@@ -21,7 +21,7 @@
   display: none;
 
   &:checked + header {
-    top: 0;
+    right: 0;
     & .menu-open {
       display: none;
     }
@@ -34,12 +34,13 @@
 header {
   min-height: 1rem;
   flex-wrap: wrap;
-  top: -100%;
+  right: -100%;
   //left: 0;
   //right: 0;
   position: fixed;
   //width: 100%;
-  width: calc(100% - 7rem);
+  top: 1.5rem;
+  width: 6rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .20);
   z-index: 1;
   text-align: center;
@@ -79,5 +80,4 @@ nav {
     }
   }
 }
-
 /* End of Navbar */
