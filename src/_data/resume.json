@@ -59,6 +59,11 @@
       "name": "Command Line Interface",
       "class": "cli",
       "percentage": "80%"
+    },
+    {
+      "name": "Bootstrap",
+      "class": "bootstrap",
+      "percentage": "90%"
     }
   ]
 }
