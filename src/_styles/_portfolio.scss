@@ -1,31 +1,48 @@
 /* Portfolio */
 .loading {
+  display: block;
+  margin: 150px auto;
+  align-items: center;
   text-align: center;
-  padding-top: 15%;
-  padding-bottom: 20%;
+}
+.loading i {
+  text-align: center;
 }
 
-.loading img {
-  height: 100px;
-  width: 100px;
+.loading a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  //text-align: center;
+  font-size: 2rem;
 }
 
-.square-wrapper {
-  border: 1px solid red;
-  min-width: 100px;
-  min-height: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox; /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Chrome */
+.loading a:hover {
+  font-weight: bold;
+  color: #eee;
 }
 
-.square {
-  border: 1px dotted black;
-  min-width: 33%;
-  min-height: 50px;
-}
+
+
+
+
+
+//.square-wrapper {
+//  border: 1px solid red;
+//  min-width: 100px;
+//  min-height: 100px;
+//  display: flex;
+//  flex-wrap: wrap;
+//  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+//  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+//  display: -ms-flexbox; /* TWEENER - IE 10 */
+//  display: -webkit-flex; /* NEW - Chrome */
+//}
+//
+//.square {
+//  border: 1px dotted black;
+//  min-width: 33%;
+//  min-height: 50px;
+//}
 
 /* End of Portfolio */
