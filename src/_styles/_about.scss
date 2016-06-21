@@ -12,7 +12,7 @@
     width: 50%;
     // When the width is less than 10rem the flex-wrap will make
     //  it brake on new line
-    min-width: 10rem;
+    min-width: 12rem;
     text-align: center;
 
     // We attach pos relative to right so pos absolute of .bubble-wrapper does the trick
